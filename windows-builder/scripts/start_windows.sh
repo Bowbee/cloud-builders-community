@@ -1,7 +1,7 @@
 #!/bin/bash
 
 gcloud beta compute instances create winvm \
-    --image=windows-server-1809-dc-core-for-containers-v20200114 \
+    --image=windows-server-2004-dc-core-v20200908 \
     --image-project=windows-cloud \
     --machine-type n1-standard-4 \
     --scopes=cloud-platform,storage-full \
